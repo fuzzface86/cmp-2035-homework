@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+	color: blue;
+	font-family: helvetica;
+	font-size: 16px;
+}
+
+p {
+	color: red;
+	font-family: courier;
+	font-size: 20px;
+	border: 1px solid black;
+}
+</style>
+</head>
+</html>
