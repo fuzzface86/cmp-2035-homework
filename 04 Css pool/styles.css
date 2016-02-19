@@ -2,18 +2,27 @@
 <html>
 <head>
 <style>
+
+body {
+	background-color: gray;
+	font-family: Helvetica;
+	color: black;
+}
 h1 {
 	color: blue;
 	font-family: helvetica;
-	font-size: 16px;
+	font-size: 40px;
 }
 
 p {
 	color: red;
 	font-family: courier;
 	font-size: 20px;
-	border: 1px solid black;
+	border: 1px blue;
+	padding: 10px;
+	margin: 20px;
 }
 </style>
 </head>
+</body>
 </html>
