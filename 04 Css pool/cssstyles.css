@@ -1,0 +1,24 @@
+body {
+	background-color: #f2f2f2;
+	}
+
+h1 {
+	color: black;
+	text-align: center;
+	font-size: 40px;
+	font-variant: bold;
+}
+
+p {
+	font-family: helvetica;
+	color: black;
+	font-family: helvetica;
+	font-size: 20px;
+}
+
+div {
+	text-align: center;
+    width: auto;
+    height: auto;
+    border: 3px solid gray;
+}
