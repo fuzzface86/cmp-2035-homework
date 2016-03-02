@@ -14,7 +14,7 @@ html {
 	padding: 0;
 	}
 body { 
-	font: 75% georgia, sans-serif;
+	font: 75% helvetica, sans-serif;
 	line-height: 1.88889;
 	color: #555753; 
 	background: #fff url(blossoms.jpg) no-repeat bottom right; 
@@ -24,12 +24,15 @@ body {
 p { 
 	margin-top: 0; 
 	text-align: justify;
+    background-color: beige;
 	}
 h3 { 
-	font: italic normal 1.4em georgia, sans-serif;
-	letter-spacing: 1px; 
+	font: normal 1.4em helvetica;
+	letter-spacing: 10px; 
 	margin-bottom: 0; 
 	color: #7D775C;
+    background-color: aqua;
+    border: 5px solid black;
 	}
 a:link { 
 	font-weight: bold; 
@@ -56,11 +59,13 @@ abbr {
 	padding: 0 175px 0 110px;  
 	margin: 0; 
 	position: relative;
+    background-color: black;
 	}
 
 .intro { 
 	min-width: 470px;
 	width: 100%;
+    background-color: aquamarine;
 	}
 
 header h1 { 
@@ -97,6 +102,7 @@ header {
 	margin: 20px 20px 20px 10px; 
 	width: 160px; 
 	float: left;
+    background-color: bisque;
 	}
 .summary p {
 	font: italic 1.1em/2.2 georgia; 
@@ -106,6 +112,7 @@ header {
 .preamble {
 	clear: right; 
 	padding: 0px 10px 0 10px;
+    background-color: beige;
 	}
 .supporting {	
 	padding-left: 10px; 
@@ -131,6 +138,7 @@ footer a:link, footer a:visited {
 	padding: 10px; 
 	margin-top: 150px; 
 	width: 130px; 
+    background-color: bisque;
 	}
 .sidebar h3.select { 
 	background: transparent url(h3.gif) no-repeat top left; 
