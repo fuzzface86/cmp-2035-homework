@@ -34,6 +34,9 @@ h3 {
     background-color: aqua;
     border: 5px solid black;
 	}
+h3:hover {
+    color: #FF00FF;
+}
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
