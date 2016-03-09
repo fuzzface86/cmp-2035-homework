@@ -46,15 +46,6 @@ h3 {
     width: 300px;
     background-color: #cddcda;
 	}
-h2 { 
-	font: normal 1.4em helvetica;
-	letter-spacing: 10px; 
-	margin-bottom: 0; 
-	color: black;
-    font-weight: 600;
-    width: 300px;
-    background-color: #cddcda;
-	}
 h3:hover {
     color: #FF00FF;
 }
