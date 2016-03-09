@@ -19,20 +19,41 @@ body {
 	color: #555753; 
 	background: #fff url(blossoms.jpg) no-repeat bottom right; 
 	margin: 0; 
-	padding: 0;
+    padding: 0;
 	}
 p { 
 	margin-top: 0; 
-	text-align: justify;
-    background-color: beige;
+    width: 300px;
+	text-align: center;
+    color: black;
 	}
+
+header {
+    margin: 0 auto;
+    max-width: 1040px;
+    position: relative;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
 h3 { 
 	font: normal 1.4em helvetica;
 	letter-spacing: 10px; 
 	margin-bottom: 0; 
-	color: #7D775C;
-    background-color: aqua;
-    border: 5px solid black;
+	color: black;
+    font-weight: 600;
+    width: 300px;
+    background-color: #cddcda;
+	}
+h2 { 
+	font: normal 1.4em helvetica;
+	letter-spacing: 10px; 
+	margin-bottom: 0; 
+	color: black;
+    font-weight: 600;
+    width: 300px;
+    background-color: #cddcda;
 	}
 h3:hover {
     color: #FF00FF;
@@ -40,12 +61,12 @@ h3:hover {
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #B7A5DF;
+	color: #FF00FF;
 	}
 a:visited { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #D4CDDC;
+	color: #cddcda;
 	}
 a:hover, a:focus, a:active { 
 	text-decoration: underline; 
@@ -58,30 +79,25 @@ abbr {
 
 /* specific divs */
 .page-wrapper { 
-	background: url(zen-bg.jpg) no-repeat top left; 
-	padding: 0 175px 0 110px;  
+	background: url(zen-bg.jpg) no-repeat top left;   
 	margin: 0; 
-	position: relative;
-    background-color: black;
+    position: relative;
+    background-color: white;
 	}
 
 .intro { 
 	min-width: 470px;
 	width: 100%;
-    background-color: aquamarine;
+    background-color: ;
 	}
 
 header h1 { 
 	background: transparent url(h1.gif) no-repeat top left;
-	margin-top: 10px;
-	display: block;
-	width: 219px;
-	height: 87px;
-	float: left;
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
+    background-color: #cddcda;
+    color: black;
+    font: heltvetica;
+    font-size: 40px;
+	float: center;
 	}
 header h2 { 
 	background: transparent url(h2.gif) no-repeat top left; 
@@ -100,80 +116,102 @@ header {
 	height: 87px;
 }
 
-.summary {
-	clear: both; 
-	margin: 20px 20px 20px 10px; 
-	width: 160px; 
-	float: left;
-    background-color: bisque;
-	}
 .summary p {
 	font: italic 1.1em/2.2 georgia; 
 	text-align: center;
+    margin-top: 30px;
 	}
 
 .preamble {
 	clear: right; 
 	padding: 0px 10px 0 10px;
+    text-align: center;
     background-color: beige;
+    width: 300px;
+    float: left;
 	}
 .supporting {	
 	padding-left: 10px; 
+    text-align: center;
+    text-align: center;
 	margin-bottom: 40px;
+    float: right;
 	}
-
+.participation {
+    clear: right;
+	padding: 0px 10px 0 10px;
+    background-color: beige;
+    text-align: center;
+    width: 300px;
+    float: right;
+	}
+.benefits {
+     position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    top: 600px;
+    width: 300px;
+}
+.requirements {
+  position: absolute;
+    bottom: 0;
+    text-align: center;
+    left: 0;
+    top: 800px;
+    width: 300px;
+}
 footer { 
 	text-align: center; 
 	}
 footer a:link, footer a:visited { 
 	margin-right: 20px; 
 	}
-
 .sidebar {
-	margin-left: 600px; 
-	position: absolute; 
-	top: 0; 
+	margin-top: 600px; 
+	position: absolute;
+    top: 1000px;
 	right: 0;
 	}
 .sidebar .wrapper { 
 	font: 10px verdana, sans-serif; 
 	background: transparent url(paper-bg.jpg) top left repeat-y; 
-	padding: 10px; 
-	margin-top: 150px; 
-	width: 130px; 
-    background-color: bisque;
+	padding: 40px 5% 30px; 
+    background-color: beige;
 	}
+
 .sidebar h3.select { 
 	background: transparent url(h3.gif) no-repeat top left; 
+    background-color: #cddcda;
 	margin: 10px 0 5px 0; 
-	width: 97px; 
+	width: 300px; 
 	height: 16px; 
-
-	text-indent: 100%;
+    color: black;
 	white-space: nowrap;
 	overflow: hidden;
 	}
 .sidebar h3.archives { 
 	background: transparent url(h5.gif) no-repeat top left; 
+    background-color: #cddcda;
 	margin: 25px 0 5px 0; 
-	width:57px; 
+	width:100px; 
 	height: 14px; 
-
-	text-indent: 100%;
+    font-size: 10px;
+    color: black;
 	white-space: nowrap;
 	overflow: hidden;
 	}
 .sidebar h3.resources { 
 	background: transparent url(h6.gif) no-repeat top left; 
+    background-color: #cddcda;
 	margin: 25px 0 5px 0; 
-	width:63px; 
+	width: 140px; 
 	height: 10px; 
-
-	text-indent: 100%;
+    font-size: 10px;
+    color: black;
 	white-space: nowrap;
 	overflow: hidden;
 	}
-
 
 .sidebar ul {
 	margin: 0;
@@ -193,8 +231,35 @@ footer a:link, footer a:visited {
 .sidebar li a:visited {
 	color: #B3AE94;
 	}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
 
+li {
+    float: left;
+}
 
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
 .extra1 {
 	background: transparent url(cr2.gif) top left no-repeat; 
 	position: absolute; 
