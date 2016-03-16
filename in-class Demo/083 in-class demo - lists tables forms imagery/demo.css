@@ -6,6 +6,10 @@
 body {
     font-family: 'Vollkorn', serif;
     font-family: 'Oswald', sans-serif;
+    background-image: url(flowers1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
 ul {
     /* list-style-type: circle;
