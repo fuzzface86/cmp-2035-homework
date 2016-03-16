@@ -2,9 +2,6 @@ html {
 	margin: 0;
 	padding: 0;
 	}
-
-@import  url(https://fonts.googleapis.com/css?family=VT323); 
-
 body { 
     font-family: 'VT323';
     line-height: 1.88889;
@@ -16,11 +13,12 @@ body {
 p {  
     font-family: 'VT323';
     color: white;
-    font-size: 1em;
+    font-size: 20px;
     }
 header h1 { 
     background-color: #26596A;
     color: #FDFFFF;
+    border-radius: 25px;
     font-weight: 800;
     font-size: 100px;
     margin: 0px;    
@@ -30,9 +28,11 @@ header h2 {
     color: #FDFFFF;
 	}
 h3 { 
+    border-radius: 15px;
 	letter-spacing: 10px; 
 	color: white;
-    background-color: #022835;
+    font-size: 30px;
+    background-color: #333;
 	}
 h3:hover {
     color: black;
@@ -71,24 +71,17 @@ footer a:link, footer a:visited {
     }
 .requirements {
 	padding: 0px 10px 0 10px;
-    position: absolute;
     left: 0;
     top: 1050px;
-    width: 300px;
     }
 .preamble {
 	padding: 0px 10px 0 10px;
-    text-align: center;
-    width: 300px;
     float: left;
     }
 .benefits {
-    text-align: center;
     top: 300px;
-    width: 300px;
     }
 .supporting {	
-    width: 300px;
 	margin-bottom: 40px;
     float: right;
     padding: 0px 10px 0 10px;
@@ -96,22 +89,10 @@ footer a:link, footer a:visited {
 .participation {
 	padding: 0px 10px 0 10px;
 	}
-.explanation {
-    top: 1500px;
-    clear: right;
-    text-align: center;
-    width: 300px;
-	}
-.mainsupporting {
-    position: fixed;
-    bottom: o;
-    right: 0;
-    }
 /*SIDEBAR*/
 .sidebar {
-	margin-top: 600px; 
 	position: absolute;
-    top: 2100px;
+    top: 2750px;
 	right: 0;
 	}
 .sidebar .wrapper { 
@@ -121,17 +102,14 @@ footer a:link, footer a:visited {
 	}
 .sidebar h3.select { 
     background-color: #cddcda;
-	height: 16px; 
     color: black;
 	}
 .sidebar h3.archives { 
     background-color: #cddcda;
-	height: 16px; 
     color: black;
 	}
 .sidebar h3.resources { 
 	background-color: #cddcda;
-	height: 16px; 
     color: black;
 	}
 .sidebar ul {
@@ -144,6 +122,30 @@ footer a:link, footer a:visited {
 .sidebar li a:visited {
 	color: #FDFFFF;
 	}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+/*
 ul {
     list-style-type: none;
     margin: 0;
@@ -169,3 +171,4 @@ li a.active {
     color: white;
     background-color: #4CAF50;
     }
+*/
