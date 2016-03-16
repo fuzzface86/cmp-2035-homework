@@ -1,0 +1,46 @@
+/*
+@font-face {
+    font-family: "josefinsans";
+    src: url(Fonts/JosefinSans-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+*/
+
+
+
+html {
+    font-size: 75%;
+}
+h1, h2, h3 h4, h5, h6 {
+    font-family: Georgia, Serif;
+    font-family: "lato", sans-serif;
+    text-transform: uppercase;
+}
+
+a:link {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 10px dotted gray;
+}
+
+h1 {
+    color: crimson;
+}
+
+h2 {
+    color: forestgreen;
+    word-spacing: 5px;
+    text-align: left;
+    text-indent: 2em;
+}
+
+p {
+    font-size: 100%;
+    line-height: 1.5em;
+    text-indent: 2em;
+    hyphens: auto;
+
+}
