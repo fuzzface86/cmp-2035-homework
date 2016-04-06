@@ -1,33 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans+Mono);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
 html {
 	margin: 0;
 	padding: 0;
 	}
 body { 
-    font-family: 'VT323';
+    font-family: 'Inconsolata' ;
     line-height: 1.88889;
 	margin: 0; 
-    font-size: 1.05em;
     text-align: center;
     background-color: #26596A;
 	}
 p {  
-    font-family: 'VT323';
     color: white;
     font-size: 20px;
     }
 header h1 { 
-    background-color: #26596A;
     color: #FDFFFF;
-    border-radius: 25px;
+    font-family: 'VT323';
+    text-shadow: 5px 5px #a22ee0;
     font-weight: 800;
     font-size: 100px;
     margin: 0px;    
 	}
 header h2 { 
+    font-family: 'VT323';
+    text-shadow: 1px 1px #a22ee0;
     font-size: 40px;
     color: #FDFFFF;
 	}
+.intro {
+    background-image: url(pics/skyline.jpg);
+}
 h3 { 
+    font-family: 'Inconsolata' ;    
     border-radius: 15px;
 	letter-spacing: 10px; 
 	color: white;
@@ -64,15 +71,12 @@ footer a:link, footer a:visited {
     background-color: #022835;
     box-shadow: 0px 10px 5px grey;
 	}
-.summary {
-	font: italic 1.1em/2.2 "georgia"; 
+.summary { 
     margin: 30px;
     margin-bottom: 10px;
     }
 .requirements {
 	padding: 0px 10px 0 10px;
-    left: 0;
-    top: 1050px;
     }
 .preamble {
 	padding: 0px 10px 0 10px;
@@ -91,13 +95,13 @@ footer a:link, footer a:visited {
 	}
 /*SIDEBAR*/
 .sidebar {
+    margin: 5px;
+    display: block;
 	position: absolute;
     top: 2750px;
 	right: 0;
 	}
 .sidebar .wrapper { 
-	font: 10px verdana, sans-serif; 
-	background: transparent url(paper-bg.jpg) top left repeat-y; 
 	padding: 40px 5% 30px; 
 	}
 .sidebar h3.select { 
@@ -145,30 +149,9 @@ li a {
 li a:hover {
     background-color: #111;
 }
-/*
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #022835;
-    background-color: #26596A;
-    }
-li {
-    float: left;
-    }
-li a {
-    display: block;
-    color: #FDFFFF;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    }
-li a:hover:not(.active) {
-    background-color: #ddd;
-    }
-li a.active {
-    color: white;
-    background-color: #4CAF50;
-    }
-*/
+.extra1 {
+    background-image: url('Dojo_FBG.png');
+    position: fixed;
+    left: 0;
+    top: 0;
+}
