@@ -3,6 +3,32 @@ body {
     margin: 0 ;
     font-size: 2em;
 }
+.top {
+    position:absolute;
+    left:0; 
+    right:0;
+    height: 92px;
+    width: 100%;
+}
+.main {
+    position: absolute;
+    width: 100%;
+    left:0px; 
+    padding: 10px;
+    top:156px; 
+    right:0; 
+    bottom:0;
+}
+#footer{
+    width: 100%;
+    position: absolute;
+    top: 1200px;
+    background-color: black;
+    color: azure;
+    clear: both;
+    text-align: center;
+    padding: 10px;
+}
 #caleb {
     font-size: 2em;
     margin: 20px;
@@ -11,65 +37,73 @@ body {
 }
 #paint {
     margin-top: 0px;
-    margin-left: 15px;
+    margin-left: 72px;
     margin-bottom: 0px;
-}
-#social {
-    position: absolute;
-    left: 35px; 
-    top:328px; 
 }
 #contact {
     position:absolute;
     left:100px; 
-    width: 500px;
+    font-size: 1.5em;
+    width: 520px;
 }
-.top {
-    position:absolute;
-    left:0; 
-    right:0;
-    height: 92px;
-    width: 100px;
-}
-.left {
-    position:absolute;
-    left:0; 
-    top:92px; 
-    bottom: 0;
-    width: 178px;
-}
-.main {
+#tweet {
     position: absolute;
-    left:235px; 
-    top:136px; 
-    right:0; 
-    bottom:0;
+    left: 1000px;
+    top: 20px
 }
+#adress {
+    position:absolute;
+    left:100px; 
+    top: 100px;
+    width: 520px;
+}
+#social{ 
+    position: absolute;
+    left: 1000px;
+    width: 100%;
+}
+#socialicons{
+    position: absolute;
+    top: 57px;
+    left: 50px;
+}
+
 ul {
-    list-style-type: none;
+    position: absolute;
+    top: -84px;
+    left: -200px;
     margin: 0;
     padding: 0;
-    width: 236px;
-    background-color: #f1f1f1;
+    width: 500px;
+    background-color: white;
+   
+}
+li {
+    display: inline;
 }
 li a {
-    display: block;
+
     color: #000;
-    margin: 5px;
     padding: 8px 0 8px 16px;
     text-decoration: none;
 }
-li a:hover {
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+li a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
 div.img {
-    margin: 45px;
+    margin: 5px;
+    border: 1px;
     float: left;
+    padding: 3px;
     width: 180px;
 }
 div.img:hover {
-    border: 1px solid #777;
+    border: 1px solid;
 }
 div.img img {
     width: 100%;
