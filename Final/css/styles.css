@@ -1,0 +1,81 @@
+body {
+    font-family: 'Amatic SC';
+    margin: 0 ;
+    font-size: 2em;
+}
+#caleb {
+    font-size: 2em;
+    margin: 20px;
+    margin-bottom: 0px;
+    width: 200px;
+}
+#paint {
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+}
+#social {
+    position: absolute;
+    left: 35px; 
+    top:328px; 
+}
+#contact {
+    position:absolute;
+    left:100px; 
+    width: 500px;
+}
+.top {
+    position:absolute;
+    left:0; 
+    right:0;
+    height: 92px;
+    width: 100px;
+}
+.left {
+    position:absolute;
+    left:0; 
+    top:92px; 
+    bottom: 0;
+    width: 178px;
+}
+.main {
+    position: absolute;
+    left:235px; 
+    top:136px; 
+    right:0; 
+    bottom:0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 236px;
+    background-color: #f1f1f1;
+}
+li a {
+    display: block;
+    color: #000;
+    margin: 5px;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+div.img {
+    margin: 45px;
+    float: left;
+    width: 180px;
+}
+div.img:hover {
+    border: 1px solid #777;
+}
+div.img img {
+    width: 100%;
+    height: auto;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
